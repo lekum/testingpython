@@ -1,0 +1,6 @@
+nose
+nose-cov
+rednose
+pytest
+pytest-cov
+requests

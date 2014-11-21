@@ -1,0 +1,10 @@
+class Bank:
+
+    def __init__(self):
+        self.accounts = {}
+
+    def add_account(self, account):
+        self.accounts[account.account_number] = account
+
+    def get_account_balance(self, account_number):
+        return self.accounts.get(account_number).balance
